@@ -1,0 +1,16 @@
+We made a side-scrolling game. The player will use the arrow keys to control the character to move around the screen. During the process of moving, the player will collect coins to earn their score. Dropping from logs of the screen will lead to failure.
+
+Joonsung Ha made the movement of character
+He creates an object called person to import the image and create the character. There are keypressed function get involved to control the postition of movement. Gravity is implemented if the character is not standing on platforms.
+
+Shaojie Hou made the logs platform and coins
+He creates two seperate objects called wood and gold_coin to import images and create logs platforms to stand and coins to collect. With the comparison of character's position and logs platforms, the program will determine if the character is falling down.
+
+Yu-Huan, Chang made the GUI and coins collection
+He creates a seperate class for restart button to click and a text on the top to record the score of the current player. He also writes the functionality to collect coins by comparing the postion of coins and the character. 
+
+Yichen (Ruby) Pan: 
+Keyboard interactivity: pause button, continue button, menu button, play buttons, reset button, scoreboard button, mute button (jump to specific game screen with the click sound or set the player position) 
+Multiple game screens: main menu screen, character selection screen, scoreboard screen, pause screen, game result win or lose screen
+Data Input/Output: store the highest 5 scores and display on the scoreboard in scorefile.txt
+Sounds: player jumping sound (jump.wav), pressing button sound (click.wav), background music sound (bgm.mp3) (mutable or unmutable if click the mute button showing on each game screen) 
